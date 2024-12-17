@@ -9,11 +9,11 @@ public class programaNpc {
 
         int  escolha = Integer.parseInt(ent.nextLine());
 
-        System.out.println("CADASTRO DE NPC ");
-        System.out.println("[1] [CADASTRO] ");
-        System.out.println("[2] [PESQUISAR NPC]");
-        System.out.println("[3] [NPCS CADASTRADOS] ");
-        System.out.println("[4] [FALAS DE NPC ] ");
+        System.out.println("CADASTRO DE NPC \n "
+                           + "[1] [CADASTRO] \n"
+                           + "[2] [PESQUISAR NPC] \n "
+                           + " [3] [NPCS CADASTRADOS] \n "
+                           + "[4] [FALAS DE NPC ] ");
 
         switch(escolha) {
             case 1:
